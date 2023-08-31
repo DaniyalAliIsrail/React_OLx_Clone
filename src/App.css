@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;500&family=Poppins:ital,wght@0,200;0,400;0,500;1,300&family=Roboto:wght@300;400;500&family=Wavefont:wght@400;500;600&display=swap');
+
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+.container-custom {
+        margin: 0 auto;
+        padding: 15px;
+}
+
+.logo-olx {
+        width: 100%;
+        height: 30px;
+}
+
+.olx-black-logo {
+        width: 80px;
+        height: 50px;
+}
+
+
+.drop-down-bar {
+        padding: 3px 5px 3px;
+        border: 2px solid #002f34;
+        border-radius: 6px;
+        height: 55px;
+        width: 280px;
+        padding: 5px 0 0 5px;
+        background-color: #ffffff;
+
+}
+  
+.search-bar {
+        border: 2px solid #002f34;
+        border-radius: 6px;
+        /* padding: 3px 5px 3px; */
+    }
+.search-bar-second{
+        width: 700px;
+        background-color: #ffffff;
+        border: none;
+        outline: none;
+        background: transparent;
+        height: 50px;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 425px) {
+        .mq-custom {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+        }
+
+        .mq-custom>.logo-olx {
+                width: 28px;
+        }
+
+}
