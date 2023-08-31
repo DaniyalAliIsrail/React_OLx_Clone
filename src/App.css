@@ -10,10 +10,8 @@
 
 .container-custom {
         margin: 0 auto;
-        padding-inline: 12px;
-        padding-block: 6px;
-        /* border: 1px solid red; */
-
+        padding: 10px 6px;
+        padding-inline: 10px;
 }
 
 .sa-bar {
@@ -98,7 +96,6 @@
         border-style: solid;
         padding: 8px;
         background-color: #ffffff;
-
 }
 
 .slider-img {
@@ -107,6 +104,31 @@
         width: 98vw;
 }
 
+/* circe-card-section */
+.categories-heading {
+        padding: 14px;
+       
+}
+
+.card-circle-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 5vw;
+        align-items: center;
+        width: 100%;
+        padding-top: 2%;
+        padding: 8px;
+}
+
+.card-circle {
+        text-align: center;
+        height: 18vh;
+}
+
+.card-circle>img {
+        height: 12vh;
+}
 
 
 
@@ -143,7 +165,7 @@
 
 
 
-
+/* media-query */
 
 @media only screen and (max-width: 425px) {
         .mq-custom {
@@ -196,6 +218,11 @@
                 color: #ffffff;
                 ;
                 border-radius: 0px 6px 6px 0px;
+        }
+
+        .categories-heading {
+                /* padding:14px ; */
+                border: 2px solid red;
         }
 
 
