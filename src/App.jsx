@@ -2,6 +2,11 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './components/Banner';
 import Searchbar from './components/Searchbar';
+import Mynavbar from './components/Mynavbar';
+import Ads from './components/Ads';
+
+
+
 
 
 function App() {
@@ -9,6 +14,8 @@ function App() {
     <>
       <Banner />
       <Searchbar />
+      <Mynavbar />
+      <Ads />
       
     </>
   )

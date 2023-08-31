@@ -1,54 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400;500&family=Poppins:ital,wght@0,200;0,400;0,500;1,300&family=Roboto:wght@300;400;500&family=Wavefont:wght@400;500;600&display=swap');
+/* import SELLBORDER from "asset 2.svg"; */
 
 * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        font-family: Poppins, serif;
 }
 
 .container-custom {
         margin: 0 auto;
-        padding: 15px;
+        padding-inline: 12px;
+        padding-block: 6px;
+        /* border: 1px solid red; */
+
+}
+
+.sa-bar {
+        background-color: #f7f8f8;
+}
+
+.box-s {
+
+        box-shadow: 0px 15px 10px -15px #bcbcbc;
+
+}
+
+.navbar-main {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1.2vw;
+        align-items: center;
 }
 
 .logo-olx {
         width: 100%;
-        height: 30px;
+        height: 28px;
 }
 
 .olx-black-logo {
-        width: 80px;
-        height: 50px;
+        width: 75px;
+        height: 40px;
 }
-
 
 .drop-down-bar {
-        padding: 3px 5px 3px;
+
+        padding: 2px 2px 2px;
         border: 2px solid #002f34;
         border-radius: 6px;
-        height: 55px;
+        height: 50px;
         width: 280px;
-        padding: 5px 0 0 5px;
+        /* padding: 5px 0 0 5px; */
+        background-color: #ffffff;
+}
+
+.search-bar {
+        display: flex;
+        background-color: #ffffff;
+        width: 50vw;
+}
+
+.search-w {
+        width: 100vw;
+}
+
+.search-bar-second {
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+        height: 8vh;
+        padding: 10px 10px;
+        border: 2px solid #002f34;
+        border-radius: 6px 0px 0px 6px;
+}
+
+.search-bar-logo {
+        border: 2px solid #002f34;
+        font-size: 22px;
+        height: 8vh;
+        width: 3vw;
+        text-align: center;
+        padding: 1vh 0 0 0;
+        color: #ffffff;
+        ;
+        background-color: #002f34;
+        border-radius: 0px 6px 6px 0px;
+}
+
+.colorful-border {
+        border-radius: 24px;
+        width: 85px;
+        border-width: 5px;
+        text-align: center;
+        border-color: yellow skyblue blue;
+        /* border-color: top right bottom left */
+        border-style: solid;
+        padding: 8px;
         background-color: #ffffff;
 
 }
-  
-.search-bar {
-        border: 2px solid #002f34;
-        border-radius: 6px;
-        /* padding: 3px 5px 3px; */
-    }
-.search-bar-second{
-        width: 700px;
-        background-color: #ffffff;
-        border: none;
-        outline: none;
-        background: transparent;
-        height: 50px;
-    }
-  
 
-
+.slider-img {
+        display: flex;
+        justify-content: center;
+        width: 98vw;
+}
 
 
 
@@ -99,5 +156,47 @@
         .mq-custom>.logo-olx {
                 width: 28px;
         }
+
+        .navbar-main {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 1.2vw;
+                align-items: center;
+        }
+
+        /* search or drop down section */
+        .olx-black-logo {
+                display: none;
+        }
+
+        .login-btn {
+                display: none;
+        }
+
+        .colorful-border {
+                display: none;
+        }
+
+        .drop-down-bar {
+                min-width: 100%;
+        }
+
+        /* search bar section */
+        .search-bar {
+                min-width: 100%;
+                /* padding-top: 1.2vh; */
+        }
+
+        .search-bar-logo {
+                font-size: 22px;
+                height: 8vh;
+                width: 7.6vw;
+                padding: 1vh 0 0 0;
+                color: #ffffff;
+                ;
+                border-radius: 0px 6px 6px 0px;
+        }
+
 
 }
