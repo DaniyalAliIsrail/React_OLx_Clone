@@ -29,6 +29,17 @@ import CARD9 from "./assets/ii.jpeg";
 import CARD10 from "./assets/jj.jpeg";
 import Card from "react-bootstrap/Card";
 import { AiOutlineHeart } from "react-icons/ai";
+import Footerbanner from "./components/Footerbanner";
+import FOOTERBANNERIMAGE from "./assets/asset 4.jpeg";
+import APPSTORE from "./assets/asset 5.svg";
+import GOOGLEPLAY from "./assets/asset 6.svg";
+import APPGALERY from "./assets/asset 7.svg";
+import Footerolx from "./components/Footerolx";
+
+
+
+
+
 
 
 function App() {
@@ -237,15 +248,16 @@ function App() {
                 Some quick example text title and make up Lorem ipsum dolor sit
                 amet consectetur .
               </Card.Text>
-              <Card.Text>Karchi , Saddar</Card.Text>
+              <Card.Text>Karchi,Saddar</Card.Text>
             </Card.Body>
           </Card>
         
-
-
-          
+          <Footerbanner  footerimage={FOOTERBANNERIMAGE} appstore={APPSTORE} googleplay={GOOGLEPLAY} appgalery={APPGALERY}/>
         </div>
       </div>
+
+
+      <Footerolx />
       
     </>
   );
