@@ -8,7 +8,7 @@ import { FaSearch } from "react-icons/fa";
 const Searchbar = () => {
   return (
     <>
-      <div className="sa-bar">
+      <div className="sa-bar box-s top-0 sticky-top z-3">
         <div className="container-custom">
           <div className="p-2 ">
             <div className="navbar-main">
@@ -20,7 +20,7 @@ const Searchbar = () => {
                 ></img>
               </div>
 
-              <div>
+              <div className="drop-res">
                 <select className="drop-down-bar" name="cars" id="cars">
                   <option value="volvo">Pakistan</option>
                   <option value="saab">Saab</option>

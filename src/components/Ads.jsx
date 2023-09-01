@@ -12,9 +12,9 @@ const Ads = () => {
             <img className="img-fluid " src={ADVERTIESMEWNT}></img>
           </div>
         </div>
-      </div>
+      </div> 
 
-      {/* <Carousel>
+       {/* <Carousel>
         <Carousel.Item>
           <ExampleCarouselImage text="First slide" />
           <Carousel.Caption>

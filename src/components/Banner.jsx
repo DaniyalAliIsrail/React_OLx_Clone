@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <>
        <div style={{backgroundColor:"#f7f8f8"}}>
-      <div className="container-custom">
+      <div className="container-custom ">
      
         <div className="d-flex justify-content-start p-1  gap-4 align-item-center  mq-custom w-100 ">
           <div>

@@ -8,7 +8,7 @@ import { FaArrowCircleDown } from "react-icons/fa";
 const Mynavbar = () => {
   return (
     <>
-      <div className="container-custom  box-s ">
+      <div className="container-custom  ">
         <Navbar expand="lg" className="bg-body-white">
           <Navbar.Brand href="#home">
           
