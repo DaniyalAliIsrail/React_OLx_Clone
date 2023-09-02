@@ -17,10 +17,11 @@ const Footerbanner = (props) => {
         <div className="list-footer">
           <p>GET YOUR APP TODAY</p>
           <div className="list-banner">
-            <img   src={appstore}></img>
+            <img src={appstore}></img>
             <img src={googleplay}></img>
             <img src={appgalery}></img>
           </div>
+          
         </div>
       </div>
       

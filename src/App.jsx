@@ -35,6 +35,7 @@ import APPSTORE from "./assets/asset 5.svg";
 import GOOGLEPLAY from "./assets/asset 6.svg";
 import APPGALERY from "./assets/asset 7.svg";
 import Footerolx from "./components/Footerolx";
+import Certified from "./components/Certified";
 
 
 
@@ -258,6 +259,8 @@ function App() {
 
 
       <Footerolx />
+
+      <Certified />
       
     </>
   );

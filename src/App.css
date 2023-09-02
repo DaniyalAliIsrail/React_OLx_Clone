@@ -6,13 +6,15 @@
         margin: 0;
         box-sizing: border-box;
         font-family: Poppins, serif;
+        list-style-type: none;
+
 }
 
 .container-custom {
         margin: 0 auto;
-        width: 9%8;
-        padding: 10px 6px;
-        padding-inline: 10px;
+        width: 100%;
+        padding: 10px 10px;
+        /* padding-inline: 10px; */
 }
 
 .sa-bar {
@@ -164,6 +166,14 @@
         font-size: 24px;
 }
 
+
+
+
+
+
+
+/* footerbanner */
+
 .footerbanner {
         display: flex;
         justify-content: space-around;
@@ -187,6 +197,13 @@
         padding-bottom: 8px;
 }
 
+.list-footer {
+        /* border: 2px solid purple; */
+        width: 30vw;
+        height: 20vh;
+        /* border: 3px solid red; */
+}
+
 .list-footer>p {
         font-weight: 600;
 }
@@ -197,19 +214,73 @@
 
 .list-banner>img {
         /* width: 10vw; */
-        height: 38px;
+        height: 30px;
+        padding: 0 4px 0 0;
         /* border: 2px solid red; */
 }
 
-.list-footer {
-        /* border: 2px solid purple; */
-        width: 30vw;
-        height: 8vh;
+
+/* Footer */
+
+.footer-olx {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 80px;
+        height: 30vh;
+        /* border: 2px solid red; */
 }
 
+.footer-bg-clr {
+        /* padding: 18px 0 0 0 ; */
+        background-color: #eeecec;
+        /* border: 1px solid red; */
+}
 
+.footer-olx>h6 {
+        font-weight: bolder;
+}
 
+.footer-olx>div>ul>li {
+        font-size: 14px;
+}
 
+.socialmedia-log>img {
+        justify-content: flex-start;
+        width: 2.5vw;
+        padding: 0 0 14px 0;
+
+}
+
+.socail-wrapper {
+        /* border: 2px solid blue; */
+        height: 22vh;
+
+}
+
+.smedia-logo {
+        display: flex;
+        gap: 12px;
+        /* border: 2px solid red; */
+
+}
+
+.smedia-logo>img {
+        width: 5vw;
+}
+
+.cer-banner{
+        display: flex ;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 16px;
+        background-color: #002f34;
+        color: white;
+        height: 8vh;
+        padding: 14px 20px 0 0  ;
+        font-size: 12px;
+
+}
 
 
 
@@ -411,7 +482,7 @@
         }
 
         .footerbanner {
-                
+
                 justify-content: space-around;
                 flex-direction: column;
                 align-items: center;
@@ -421,22 +492,23 @@
 
         }
 
-        .footer-center-heading{
+        .footer-center-heading {
                 width: 100%;
-                 border: none;
+                border: none;
                 /* border: 2px solid purple; */
                 height: auto;
 
 
         }
-        
-        .list-banner{
+
+        .list-banner {
                 width: 100%;
                 display: flex;
                 justify-content: flex-start;
                 gap: 6px;
 
         }
+
         .list-banner>img {
                 width: 26vw;
                 /* gap: 10px; */
@@ -445,13 +517,14 @@
                 /* height: 38px; */
                 /* border: 2px solid red; */
         }
-        
+
         .list-footer {
                 width: 100%;
-                /* height: 8vh; */
+                height: 8vh;
                 font-size: 1.3rem;
                 text-align: center;
         }
+
         .list-footer>P {
                 width: 80%;
                 padding: 5px;
@@ -459,5 +532,59 @@
 
                 /* border: 1px solid red; */
         }
+
+        /* Final Footer */
+        .footer-olx {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* gap: 100px; */
+                /* border: 2px solid red; */
+
+        }
+
+        .footer-olx>div {
+                /* border: 2px solid greenyellow; */
+                width: 90%;
+                /* padding: 20px; */
+                height: 68px;
+                /* border: 2px solid red; */
+        }
+
+
+        .footer-bg-clr {
+                padding: 18px 0 0 0;
+                background-color: #eeecec;
+                height: 140%;
+        }
+        .socail-wrapper>h5 {
+                align-items: center;
+                /* border: 2px soldi red; */
+        }
+
+        .socialmedia-log>img {
+                width: 40px;
+                display: none;
+
+        }
+        .smedia-logo>img {
+                width: 80px;
+
+        }
+        .cer-banner{
+                display: flex ;
+                justify-content: center;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                background-color: #002f34;
+                color: white;
+                /* height: 8vh; */
+                /* padding: 14px 20px 0 0  ; */
+                font-size: 14px;
+                width: 100%;
+                height: auto;
+        
+        }
+
 
 }
