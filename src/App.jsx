@@ -37,12 +37,6 @@ import APPGALERY from "./assets/asset 7.svg";
 import Footerolx from "./components/Footerolx";
 import Certified from "./components/Certified";
 
-
-
-
-
-
-
 function App() {
   return (
     <>
@@ -121,16 +115,16 @@ function App() {
         </div>
       </div>
 
+     
+
       {/* Card-section */}
       <div className="container-custom">
+
+      <div className="categories-heading">
+          <h2 className="pt-3">Trending</h2>
+        </div>
         <div className="card-wrapper">
-         
-
-         
-
-        
-
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -146,9 +140,9 @@ function App() {
             </Card.Body>
           </Card>
 
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
-           <Mycard  cimg={CARD3} />
-           
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
+            <Mycard cimg={CARD3} />
+
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
               <div className="card-icon">
@@ -162,7 +156,7 @@ function App() {
               <Card.Text>Karchi , Saddar</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -177,7 +171,7 @@ function App() {
               <Card.Text>Karchi , Saddar</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -192,7 +186,7 @@ function App() {
               <Card.Text>Karchi , Saddar</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -207,7 +201,7 @@ function App() {
               <Card.Text>Karchi , Saddar</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -222,7 +216,7 @@ function App() {
               <Card.Text>Karchi , Saddar</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -237,7 +231,7 @@ function App() {
               <Card.Text>Karchi , Saddar</Card.Text>
             </Card.Body>
           </Card>
-          <Card className="setWidth-responsive" style={{ width: "17rem"  }}>
+          <Card className="setWidth-responsive" style={{ width: "17rem" }}>
             <Mycard cimg={CARD1} />
             <Card.Body className="pos-icon-chng">
               <Card.Title>Rs 23,000</Card.Title>
@@ -252,16 +246,19 @@ function App() {
               <Card.Text>Karchi,Saddar</Card.Text>
             </Card.Body>
           </Card>
-        
-          <Footerbanner  footerimage={FOOTERBANNERIMAGE} appstore={APPSTORE} googleplay={GOOGLEPLAY} appgalery={APPGALERY}/>
+
+          <Footerbanner
+            footerimage={FOOTERBANNERIMAGE}
+            appstore={APPSTORE}
+            googleplay={GOOGLEPLAY}
+            appgalery={APPGALERY}
+          />
         </div>
       </div>
-
 
       <Footerolx />
 
       <Certified />
-      
     </>
   );
 }

@@ -50,7 +50,7 @@ const Footerolx = () => {
 
           <div>
             <ul>
-              <h6 class="h6-size-all">ABOUT US</h6>
+              <h6 >ABOUT US</h6>
               <li>
                 <a>About EMPG</a>
               </li>
@@ -68,7 +68,7 @@ const Footerolx = () => {
 
           <div>
             <ul>
-              <h6 class="h6-size-all">OLX</h6>
+              <h6 >OLX</h6>
               <li>
                 <a>Help</a>
               </li>
@@ -98,6 +98,7 @@ const Footerolx = () => {
               <img src={smedia3}></img>
             </div>
           </div>
+          
         </div>
       </div>
     </>
