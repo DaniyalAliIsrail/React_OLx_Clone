@@ -398,8 +398,8 @@
 
         .drop-res {
                 width: 100%;
-
         }
+
         .search-bar-logo {
                 font-size: 22px;
                 height: 8vh;
@@ -467,7 +467,7 @@
         /* card */
         .card-icon {
                 position: absolute;
-                left: 305px;
+                left: 240px;
                 top: 10px;
                 font-size: 24px;
                 /* border: 2px solid red; */
